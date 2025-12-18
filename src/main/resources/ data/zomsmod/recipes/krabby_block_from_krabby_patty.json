@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "zomsmod:krabby_patty"
+    }
+  },
+  "result": {
+    "item": "zomsmod:krabby_block"
+  },
+  "show_notification": true
+}

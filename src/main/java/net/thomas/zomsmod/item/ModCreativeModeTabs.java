@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.thomas.zomsmod.ZomsMod;
+import net.thomas.zomsmod.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -24,6 +25,9 @@ public class ModCreativeModeTabs {
 
                         // you can also add Vanilla items to the list
                         output.accept(Items.DIAMOND);
+
+                        output.accept(ModBlocks.KRABBY_BLOCK.get());
+                        output.accept(ModBlocks.PURE_BLACK_BLOCK.get());
                     })
                     .build());
 

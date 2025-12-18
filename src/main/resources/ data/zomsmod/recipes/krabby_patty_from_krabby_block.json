@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zomsmod:krabby_block"
+    }
+  ],
+  "result": {
+    "item": "zomsmod:krabby_patty",
+    "count": 9
+  },
+  "show_notification": true
+}

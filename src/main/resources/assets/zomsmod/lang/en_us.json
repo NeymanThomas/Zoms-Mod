@@ -2,5 +2,8 @@
   "item.zomsmod.krabby_patty": "Krabby Patty",
   "item.zomsmod.lettuce": "Lettuce",
 
+  "block.zomsmod.krabby_block": "Block of Krabby",
+  "block.zomsmod.pure_black_block": "Block of Pure Black",
+
   "creativetab.zoms_mod": "Zoms Tab"
 }
