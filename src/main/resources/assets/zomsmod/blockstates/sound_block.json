@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "zomsmod:block/sound_block"
+    }
+  }
+}

@@ -1,9 +1,16 @@
 {
   "item.zomsmod.krabby_patty": "Krabby Patty",
   "item.zomsmod.lettuce": "Lettuce",
+  "item.zomsmod.juggernog": "Juggernog",
+  "item.zomsmod.speed_cola": "Speed Cola",
 
   "block.zomsmod.krabby_block": "Block of Krabby",
   "block.zomsmod.pure_black_block": "Block of Pure Black",
+  "block.zomsmod.sound_block": "Sound Block",
+  "block.zomsmod.patty_block": "Block of Patty",
 
-  "creativetab.zoms_mod": "Zoms Tab"
+  "creativetab.zoms_mod": "Zoms Tab",
+
+  "tooltip.zomsmod.juggernog": "Extra Health",
+  "tooltip.zomsmod.speed_cola": "Faster Reload"
 }

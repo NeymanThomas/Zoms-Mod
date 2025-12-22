@@ -20,14 +20,20 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KRABBY_PATTY.get()))
                     .title(Component.translatable("creativetab.zoms_mod"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        // Add items to creative tab
                         output.accept(ModItems.KRABBY_PATTY.get());
                         output.accept(ModItems.LETTUCE.get());
+                        output.accept(ModItems.JUGGERNOG.get());
+                        output.accept(ModItems.SPEED_COLA.get());
 
                         // you can also add Vanilla items to the list
                         output.accept(Items.DIAMOND);
 
+                        // Add blocks to creative tab
                         output.accept(ModBlocks.KRABBY_BLOCK.get());
                         output.accept(ModBlocks.PURE_BLACK_BLOCK.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
+                        output.accept(ModBlocks.PATTY_BLOCK.get());
                     })
                     .build());
 
