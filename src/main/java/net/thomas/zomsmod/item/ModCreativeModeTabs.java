@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LETTUCE.get());
                         output.accept(ModItems.JUGGERNOG.get());
                         output.accept(ModItems.SPEED_COLA.get());
+                        output.accept(ModItems.QUICK_REVIVE.get());
 
                         // you can also add Vanilla items to the list
                         output.accept(Items.DIAMOND);

@@ -7,4 +7,5 @@ import net.minecraft.world.food.FoodProperties;
 public class ModFoods {
     public static final FoodProperties JUGGERNOG = new FoodProperties.Builder().nutrition(2).alwaysEat().saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.ABSORPTION), 1f).build();
     public static final FoodProperties SPEED_COLA = new FoodProperties.Builder().nutrition(0).alwaysEat().saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED), 1f).build();
+    public static final FoodProperties QUICK_REVIVE = new FoodProperties.Builder().nutrition(0).alwaysEat().saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.WEAKNESS), 1f).build();
 }

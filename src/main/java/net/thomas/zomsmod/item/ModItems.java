@@ -15,6 +15,7 @@ public class ModItems {
     public static final RegistryObject<Item> LETTUCE = ITEMS.register("lettuce", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> JUGGERNOG = ITEMS.register("juggernog", () -> new CustomFoodItem(new Item.Properties().food(ModFoods.JUGGERNOG).stacksTo(1), "tooltip.zomsmod.juggernog"));
     public static final RegistryObject<Item> SPEED_COLA = ITEMS.register("speed_cola", () -> new CustomFoodItem(new Item.Properties().food(ModFoods.SPEED_COLA).stacksTo(1), "tooltip.zomsmod.speed_cola"));
+    public static final RegistryObject<Item> QUICK_REVIVE = ITEMS.register("quick_revive", () -> new CustomFoodItem(new Item.Properties().food(ModFoods.QUICK_REVIVE).stacksTo(1), "tooltip.zomsmod.quick_revive"));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -68,6 +68,18 @@ public class CustomFoodItem extends Item {
                         true
                 ));
             }
+
+            // Quick Revive
+            if (pStack.is(ModItems.QUICK_REVIVE.get())) {
+                player.addEffect(new MobEffectInstance(
+                        MobEffects.WEAKNESS,
+                        20,
+                        1,
+                        false,
+                        false,
+                        true
+                ));
+            }
         }
 
         return super.finishUsingItem(pStack, pLevel, pLivingEntity);

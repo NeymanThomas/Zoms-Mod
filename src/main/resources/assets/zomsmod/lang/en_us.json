@@ -3,6 +3,9 @@
   "item.zomsmod.lettuce": "Lettuce",
   "item.zomsmod.juggernog": "Juggernog",
   "item.zomsmod.speed_cola": "Speed Cola",
+  "item.zomsmod.quick_revive": "Quick Revive",
+  "item.zomsmod.double_tap": "Double Tap",
+  "item.zomsmod.mule_kick": "Mule Kick",
 
   "block.zomsmod.krabby_block": "Block of Krabby",
   "block.zomsmod.pure_black_block": "Block of Pure Black",
@@ -12,5 +15,9 @@
   "creativetab.zoms_mod": "Zoms Tab",
 
   "tooltip.zomsmod.juggernog": "Extra Health",
-  "tooltip.zomsmod.speed_cola": "Faster Reload"
+  "tooltip.zomsmod.speed_cola": "Faster Reload",
+  "tooltip.zomsmod.quick_revive": "Faster Revive Speed",
+  "tooltip.zomsmod.double_tap": "Increased Fire Rate",
+  "tooltip.zomsmod.mule_kick": "Hold an Extra Gun"
+
 }
